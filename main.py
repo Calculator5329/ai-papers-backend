@@ -38,7 +38,7 @@ app = FastAPI()
 # Enable CORS (Development Mode: Allows All Origins)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://Calculator5329.github.io/ai-papers", "https://Calculator5329.github.io", "http://Calculator5329.github.io/ai-papers"],  
+    allow_origins=["https://calculator5329.github.io"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
